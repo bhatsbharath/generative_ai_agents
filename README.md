@@ -23,7 +23,8 @@ https://www.python.org/downloads/release/python-3127/
 
 ### Create and activate virtual environment (run the batch scripts)
 ```
-https://www.python.org/downloads/release/python-3127/
+.\create_env.bat
+.\activate_venv.bat
 ```
 
 ### Install Python dependencies inside the activated environment
