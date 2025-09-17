@@ -63,4 +63,5 @@ ollama list
 
 ## Acknowledgments
 * [Youtube](https://www.youtube.com/watch?v=eV-zVWClcj0&list=PLp01ObP3udmq2quR-RfrX4zNut_t_kNot&index=22)
-* Langchain cookbook
+* [Langchain cookbook](https://github.com/langchain-ai/langchain/tree/master)
+* [GitHub](https://github.com/NirDiamant)
