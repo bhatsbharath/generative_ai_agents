@@ -11,7 +11,7 @@ Quick start repository into local deployment of large language models (LLMs) and
 ### Installation & Setup
 * Clone the repository and open in VS code
 ```
-git clone https://github.com/your-username/generative_ai_agents.git
+git clone https://github.com/bhatsbharath/generative_ai_agents.git
 cd generative_ai_agents
 code .
 ```
