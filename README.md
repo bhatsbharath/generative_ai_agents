@@ -65,3 +65,4 @@ ollama list
 * [Youtube](https://www.youtube.com/watch?v=eV-zVWClcj0&list=PLp01ObP3udmq2quR-RfrX4zNut_t_kNot&index=22)
 * [Langchain cookbook](https://github.com/langchain-ai/langchain/tree/master)
 * [GitHub](https://github.com/NirDiamant)
+* [GitHub](https://github.com/fshnkarimi/Fine-tuning-an-LLM-using-LoRA)
