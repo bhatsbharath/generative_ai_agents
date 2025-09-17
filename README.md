@@ -47,7 +47,7 @@ https://ollama.com/download
 ```
 .\download_models.bat
 ```
-Or pull individuall using the below command (Eg: for llama3)
+Or pull individual model using the below command (Eg: for llama3)
 ```
 ollama pull llama3
 ```
