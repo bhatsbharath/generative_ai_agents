@@ -1,32 +1,64 @@
-
-
-
-
 # Generative AI & Agents
 
-Simple python based open source executables.
+Quick start repository into local deployment of large language models (LLMs) and agents framework.
 
-## 📥 Installation
+## Getting Started
 
-Follow these steps to set up the project locally:
+### Dependencies
 
-1. **Clone the repository**
+* Windows, Ollama
 
-```bash
+### Installation & Setup
+* Clone the repository and open in VS code
+```
 git clone https://github.com/your-username/generative_ai_agents.git
 cd generative_ai_agents
+code .
+```
 
+### Download and install Python (Tested with 3.12.7)
+```
+https://www.python.org/downloads/release/python-3127/
+```
 
+### Create and activate virtual environment (run the batch scripts)
+```
+https://www.python.org/downloads/release/python-3127/
+```
 
-Download python: https://www.python.org/downloads/release/python-3127/
+### Install Python dependencies inside the activated environment
+```
+pip install -r requirements.txt
+```
 
-Download and install OLLAMA in local: https://ollama.com/download
+### Setup Jupyter notebook environment
+```
+.\setup_jupyter_environment.bat
+```
 
+### Download & Install Ollama
+```
+https://ollama.com/download
+```
 
-Download models with below command:
-
-ollama pull llama3.2-vision
-ollama pull nomic-embed-text
+### Download all required models using the batch script
+```
+.\download_models.bat
+```
+Or pull individuall using the below command (Eg: for llama3)
+```
 ollama pull llama3
-ollama pull llava
+```
+To list all available models
+```
+ollama list
+```
 
+
+## Compilation
+ Bharath Bhat
+
+
+## Acknowledgments
+* [Youtube](https://www.youtube.com/watch?v=eV-zVWClcj0&list=PLp01ObP3udmq2quR-RfrX4zNut_t_kNot&index=22)
+* Langchain cookbook
