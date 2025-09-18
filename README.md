@@ -27,6 +27,11 @@ https://www.python.org/downloads/release/python-3127/
 .\create_env.bat
 .\activate_venv.bat
 ```
+For linux:
+```
+.\setup_venv.sh
+.\activate_venv.sh
+```
 
 ### Install Python dependencies inside the activated environment
 ```
@@ -36,6 +41,11 @@ pip install -r requirements.txt
 ### Setup Jupyter notebook environment
 ```
 .\setup_jupyter_environment.bat
+```
+For linux, run the following commands
+```
+pip install ipykernel
+python -m ipykernel install --user --name=venv_agent --display-name="Python (venv)"
 ```
 
 ### Download & Install Ollama
