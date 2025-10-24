@@ -10,7 +10,7 @@ Quick start repository into local deployment of large language models (LLMs) and
 
 ### Installation & Setup
 * Clone the repository and open in VS code
-* Install required VSCode plugings related to python and jupyter
+* Install required VSCode plugins related to python and jupyter
 ```
 git clone https://github.com/bhatsbharath/generative_ai_agents.git
 cd generative_ai_agents
@@ -27,16 +27,17 @@ https://www.python.org/downloads/release/python-3127/
 .\create_env.bat
 .\activate_venv.bat
 ```
-For linux:
+For linux: (Run chmod +x XYZ.sh in case you get command not found error)
 ```
-.\setup_venv.sh
-.\activate_venv.sh
+./setup_venv.sh
+./activate_venv.sh
 ```
 
 ### Install Python dependencies inside the activated environment
 ```
 pip install -r requirements.txt
 ```
+In case you get error, remove version number from the corresponding version number from the requirements.txt dependencies
 
 ### Setup Jupyter notebook environment
 ```
