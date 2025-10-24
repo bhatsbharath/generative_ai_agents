@@ -38,6 +38,7 @@ For linux: (Run chmod +x XYZ.sh in case you get command not found error)
 pip install -r requirements.txt
 ```
 In case you get "Could not find verision" error, remove version number from the corresponding library from the requirements.txt file and rerun the scripts again
+In case you get an error related to pywin (for linux), remove pywin library from the requirements.txt file
 
 ### Setup Jupyter notebook environment
 ```
