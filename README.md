@@ -37,7 +37,7 @@ For linux: (Run chmod +x XYZ.sh in case you get command not found error)
 ```
 pip install -r requirements.txt
 ```
-In case you get error, remove version number from the corresponding version number from the requirements.txt dependencies
+In case you get "Could not find verision" error, remove version number from the corresponding library from the requirements.txt file and rerun the scripts again
 
 ### Setup Jupyter notebook environment
 ```
